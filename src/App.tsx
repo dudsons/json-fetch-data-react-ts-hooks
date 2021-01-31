@@ -1,11 +1,10 @@
-import NumbersApiFetchHook from "./components/NumbersApiFetchHook";
 import * as React from "react";
-import UserGithubApiFetchHook from "./components/UserGithubApiFetchHook";
+import ApiGeneratorResults from "./components/ApiGeneratorResults";
 
 function App() {
   return (
       <div>
-        <UserGithubApiFetchHook/>
+        <ApiGeneratorResults/>
       </div>
   );
 }
